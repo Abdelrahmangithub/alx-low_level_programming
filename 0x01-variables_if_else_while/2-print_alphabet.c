@@ -1,19 +1,17 @@
 #include <stdio.h>
 
 /**
- * main - Prints the alphabet.
+ * main - prints from a..z using putchar only
  *
- * Return: Always 0 (Success)
+ * Return: 0
  */
 int main(void)
 {
-char alp[26] = "abcdefghijklmnopqrstuvwxyz";
 int i;
 
-for (i = 0; i < 26; i++)
-{
-putchar(alp[i]);
-}
+for (i = 97; i <= 122; i++)
+putchar(i);
+
 putchar(n);
 return (0);
 }
